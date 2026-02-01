@@ -1,0 +1,53 @@
+{
+    "version": "1.0",
+    "plugins": [
+        {
+            "id": "com.relaycraft.themes.neon-dark",
+            "name": "Cyberpunk Neon",
+            "version": "1.0.0",
+            "description": "A high-contrast dark theme with vibrant neon accents.",
+            "author": "RelayCraft Team",
+            "icon": "Palette",
+            "url": "https://raw.githubusercontent.com/relaycraft/relaycraft-themes/main/themes/neon-dark/theme.yaml",
+            "downloadCount": 1024,
+            "thumbnailUrl": "https://raw.githubusercontent.com/relaycraft/relaycraft-themes/main/themes/neon-dark/preview.png",
+            "tags": [
+                "dark",
+                "neon",
+                "vibrant"
+            ],
+            "category": "theme",
+            "locales": {
+                "zh": {
+                    "name": "赛博朋克霓虹",
+                    "description": "高对比度暗色主题，配以充满活力的霓虹点缀。"
+                }
+            },
+            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.1/com.relaycraft.themes.neon-dark-v1.0.0.rctheme"
+        },
+        {
+            "id": "com.relaycraft.themes.ocean-blue",
+            "name": "Ocean Blue",
+            "version": "1.0.0",
+            "description": "Calming blue tones for deep focus.",
+            "author": "RelayCraft Team",
+            "icon": "Droplet",
+            "url": "https://raw.githubusercontent.com/relaycraft/relaycraft-themes/main/themes/ocean-blue/theme.yaml",
+            "downloadCount": 512,
+            "thumbnailUrl": "https://raw.githubusercontent.com/relaycraft/relaycraft-themes/main/themes/ocean-blue/preview.png",
+            "tags": [
+                "light",
+                "blue",
+                "calm"
+            ],
+            "category": "theme",
+            "locales": {
+                "zh": {
+                    "name": "深海之蓝",
+                    "description": "平静的蓝色基调，助您专注沉浸。"
+                }
+            },
+            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.1/com.relaycraft.themes.ocean-blue-v1.0.0.rctheme"
+        }
+    ]
+}
