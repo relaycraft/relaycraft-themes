@@ -1,0 +1,81 @@
+id: "com.relaycraft.themes.catppuccin-latte"
+name: "Catppuccin Latte"
+version: "1.0.0"
+author: "Catppuccin Org"
+type: "light"
+description: "Soothing pastel theme for the high-spirited!"
+tags:
+  - "light"
+  - "pastel"
+  - "soothing"
+thumbnail: "preview.png"
+css: "styles.css"
+colors:
+  "--color-background": "#eff1f5"
+  "--color-foreground": "#4c4f69"
+  "--color-muted": "#e6e9ef"
+  "--color-muted-foreground": "#6c6f85"
+  "--color-popover": "#eff1f5"
+  "--color-popover-foreground": "#4c4f69"
+  "--color-card": "#ffffff"
+  "--color-card-foreground": "#4c4f69"
+  "--color-border": "#ccd0da"
+  "--color-input": "#e6e9ef"
+  "--color-primary": "#1e66f5"
+  "--color-primary-foreground": "#ffffff"
+  "--color-secondary": "#ccd0da"
+  "--color-secondary-foreground": "#4c4f69"
+  "--color-accent": "#bcc0cc"
+  "--color-accent-foreground": "#4c4f69"
+  "--color-destructive": "#d20f39"
+  "--color-destructive-foreground": "#ffffff"
+  "--color-ring": "#1e66f5"
+  "--color-success": "#40a02b"
+  "--color-success-foreground": "#ffffff"
+  "--color-warning": "#df8e1d"
+  "--color-warning-foreground": "#ffffff"
+  "--color-info": "#04a5e5"
+  "--color-info-foreground": "#ffffff"
+
+  # Rule Type Specific Colors - Latte
+  "--color-rule-script": "#8839ef"
+  "--color-rule-rewrite-body": "#ea76cb"
+  "--color-rule-map-local": "#1e66f5"
+  "--color-rule-map-remote": "#40a02b"
+  "--color-rule-rewrite-header": "#fe640b"
+  "--color-rule-throttle": "#179299"
+  "--color-rule-block": "#d20f39"
+
+  # Method Colors - Latte
+  "--color-method-get": "#1e66f5"
+  "--color-method-post": "#40a02b"
+  "--color-method-put": "#df8e1d"
+  "--color-method-delete": "#d20f39"
+
+  # Semantic Syntax Palette - Latte
+  "--syntax-keyword": "#8839ef"
+  "--syntax-string": "#40a02b"
+  "--syntax-comment": "#9ca0b0"
+  "--syntax-constant": "#fe640b"
+  "--syntax-function": "#1e66f5"
+  "--syntax-variable": "#d20f39"
+  "--syntax-property": "#d20f39"
+  "--syntax-operator": "#04a5e5"
+  "--syntax-gutter": "rgba(0, 0, 0, 0.05)"
+
+  # Surface & Glass Effects
+  "--surface-opacity-subtle": "0.1"
+  "--surface-opacity-glass": "0.6"
+  "--surface-opacity-solid": "0.95"
+  "--blur-sm": "4px"
+  "--blur-md": "12px"
+  "--blur-lg": "40px"
+
+  # Borders - Latte
+  "--color-border-subtle": "#e6e9ef"
+  "--color-border-muted": "#ccd0da"
+
+locales:
+  zh:
+    name: "Catppuccin 拿铁"
+    description: "温润柔和的浅色粉彩主题。"

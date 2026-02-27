@@ -1,10 +1,10 @@
 {
-    "version": "1.0",
+    "version": "1.2",
     "plugins": [
         {
             "id": "com.relaycraft.themes.neon-dark",
             "name": "Cyberpunk Neon",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "description": "A high-contrast dark theme with vibrant neon accents.",
             "author": "RelayCraft Team",
             "icon": "Palette",
@@ -28,7 +28,7 @@
         {
             "id": "com.relaycraft.themes.ocean-blue",
             "name": "Ocean Blue",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "description": "Calming blue tones for deep focus.",
             "author": "RelayCraft Team",
             "icon": "Droplet",
@@ -48,6 +48,79 @@
                 }
             },
             "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.2/com.relaycraft.themes.ocean-blue-v1.0.0.rctheme"
+        },
+        {
+            "id": "com.relaycraft.themes.one-dark",
+            "name": "One Dark",
+            "version": "1.0.0",
+            "description": "A balanced dark theme based on Atom and VS Code's One Dark.",
+            "author": "Binaryify",
+            "icon": "Palette",
+            "url": "https://raw.githubusercontent.com/relaycraft/relaycraft-themes/main/themes/one-dark/theme.yaml",
+            "downloadCount": 0,
+            "thumbnailUrl": "https://raw.githubusercontent.com/relaycraft/relaycraft-themes/main/themes/one-dark/preview.png",
+            "tags": [
+                "dark",
+                "balanced",
+                "glass"
+            ],
+            "category": "theme",
+            "locales": {
+                "zh": {
+                    "name": "暗黑之光",
+                    "description": "基于 Atom 和 VS Code 的经典平衡暗色主题。"
+                }
+            },
+            "downloadUrl": ""
+        },
+        {
+            "id": "com.relaycraft.themes.catppuccin-latte",
+            "name": "Catppuccin Latte",
+            "version": "1.0.0",
+            "description": "Soothing pastel theme for the high-spirited! (Light)",
+            "author": "Catppuccin Org",
+            "icon": "Sun",
+            "url": "https://raw.githubusercontent.com/relaycraft/relaycraft-themes/main/themes/catppuccin-latte/theme.yaml",
+            "downloadCount": 0,
+            "thumbnailUrl": "https://raw.githubusercontent.com/relaycraft/relaycraft-themes/main/themes/catppuccin-latte/preview.png",
+            "tags": [
+                "light",
+                "pastel",
+                "soothing"
+            ],
+            "category": "theme",
+            "locales": {
+                "zh": {
+                    "name": "Catppuccin 拿铁",
+                    "description": "温润柔和的浅色粉彩主题。"
+                }
+            },
+            "downloadUrl": ""
+        },
+        {
+            "id": "com.relaycraft.themes.catppuccin-mocha",
+            "name": "Catppuccin Mocha",
+            "version": "1.0.0",
+            "description": "Soothing pastel theme for the high-spirited! (Dark)",
+            "author": "Catppuccin Org",
+            "icon": "Moon",
+            "url": "https://raw.githubusercontent.com/relaycraft/relaycraft-themes/main/themes/catppuccin-mocha/theme.yaml",
+            "downloadCount": 0,
+            "thumbnailUrl": "https://raw.githubusercontent.com/relaycraft/relaycraft-themes/main/themes/catppuccin-mocha/preview.png",
+            "tags": [
+                "dark",
+                "pastel",
+                "soothing",
+                "glass"
+            ],
+            "category": "theme",
+            "locales": {
+                "zh": {
+                    "name": "Catppuccin 摩卡",
+                    "description": "温润柔和的暗色粉彩主题。"
+                }
+            },
+            "downloadUrl": ""
         }
     ]
 }

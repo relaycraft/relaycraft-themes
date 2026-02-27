@@ -1,0 +1,81 @@
+id: "com.relaycraft.themes.catppuccin-mocha"
+name: "Catppuccin Mocha"
+version: "1.0.0"
+author: "Catppuccin Org"
+type: "dark"
+description: "Soothing pastel theme for the high-spirited!"
+tags:
+  - "dark"
+  - "pastel"
+  - "soothing"
+thumbnail: "preview.png"
+css: "styles.css"
+colors:
+  "--color-background": "rgba(30, 30, 46, 0.85)"
+  "--color-foreground": "#cdd6f4"
+  "--color-muted": "rgba(24, 24, 37, 0.6)"
+  "--color-muted-foreground": "#a6adc8"
+  "--color-popover": "rgba(30, 30, 46, 0.95)"
+  "--color-popover-foreground": "#cdd6f4"
+  "--color-card": "rgba(49, 50, 68, 0.4)"
+  "--color-card-foreground": "#cdd6f4"
+  "--color-border": "rgba(147, 153, 178, 0.2)"
+  "--color-input": "rgba(24, 24, 37, 0.5)"
+  "--color-primary": "#cba6f7"
+  "--color-primary-foreground": "#1e1e2e"
+  "--color-secondary": "rgba(49, 50, 68, 0.5)"
+  "--color-secondary-foreground": "#cdd6f4"
+  "--color-accent": "rgba(69, 71, 90, 0.5)"
+  "--color-accent-foreground": "#cdd6f4"
+  "--color-destructive": "#f38ba8"
+  "--color-destructive-foreground": "#1e1e2e"
+  "--color-ring": "#cba6f7"
+  "--color-success": "#a6e3a1"
+  "--color-success-foreground": "#1e1e2e"
+  "--color-warning": "#f9e2af"
+  "--color-warning-foreground": "#1e1e2e"
+  "--color-info": "#89dceb"
+  "--color-info-foreground": "#1e1e2e"
+
+  # Rule Type Specific Colors - Mocha
+  "--color-rule-script": "#f5c2e7"
+  "--color-rule-rewrite-body": "#cba6f7"
+  "--color-rule-map-local": "#89b4fa"
+  "--color-rule-map-remote": "#a6e3a1"
+  "--color-rule-rewrite-header": "#fab387"
+  "--color-rule-throttle": "#94e2d5"
+  "--color-rule-block": "#f38ba8"
+
+  # Method Colors - Mocha
+  "--color-method-get": "#89b4fa"
+  "--color-method-post": "#a6e3a1"
+  "--color-method-put": "#f9e2af"
+  "--color-method-delete": "#f38ba8"
+
+  # Semantic Syntax Palette - Mocha
+  "--syntax-keyword": "#cba6f7"
+  "--syntax-string": "#a6e3a1"
+  "--syntax-comment": "#6c7086"
+  "--syntax-constant": "#fab387"
+  "--syntax-function": "#89b4fa"
+  "--syntax-variable": "#f38ba8"
+  "--syntax-property": "#f38ba8"
+  "--syntax-operator": "#89dceb"
+  "--syntax-gutter": "rgba(255, 255, 255, 0.05)"
+
+  # Surface & Glass Effects
+  "--surface-opacity-subtle": "0.1"
+  "--surface-opacity-glass": "0.3"
+  "--surface-opacity-solid": "0.95"
+  "--blur-sm": "8px"
+  "--blur-md": "16px"
+  "--blur-lg": "40px"
+
+  # Borders - Mocha
+  "--color-border-subtle": "rgba(147, 153, 178, 0.1)"
+  "--color-border-muted": "rgba(147, 153, 178, 0.2)"
+
+locales:
+  zh:
+    name: "Catppuccin 摩卡"
+    description: "温润柔和的暗色粉彩主题。"

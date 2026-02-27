@@ -1,0 +1,74 @@
+/* Catppuccin Mocha - Glassmorphism Edition */
+
+/* Global Glass Effect */
+div[class*="bg-background"],
+div[class*="bg-card"],
+div[class*="bg-popover"] {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
+/* Sidebar Glass */
+div[class*="bg-muted"] {
+    background-color: rgba(24, 24, 37, 0.4) !important; /* Mantle with alpha */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-right: 1px solid rgba(147, 153, 178, 0.1);
+}
+
+/* Card Hover Glow */
+div[class*="border-border"] {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: rgba(49, 50, 68, 0.3); /* Surface0 */
+}
+
+div[class*="border-border"]:hover {
+    background-color: rgba(49, 50, 68, 0.5);
+    border-color: #cba6f7; /* Mauve */
+    box-shadow: 0 0 20px -5px rgba(203, 166, 247, 0.15); /* Mauve glow */
+    transform: translateY(-1px);
+}
+
+/* Input Fields - Floating Glass */
+input {
+    background-color: rgba(24, 24, 37, 0.6) !important;
+    backdrop-filter: blur(8px);
+    border-radius: 8px !important;
+    border: 1px solid rgba(147, 153, 178, 0.1) !important;
+    color: #cdd6f4 !important;
+    transition: all 0.2s ease;
+}
+
+input:focus {
+    background-color: rgba(30, 30, 46, 0.9) !important;
+    border-color: #cba6f7 !important;
+    box-shadow: 0 0 0 2px rgba(203, 166, 247, 0.2);
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(88, 91, 112, 0.5); /* Surface2 */
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(147, 153, 178, 0.8); /* Overlay2 */
+}
+
+/* Buttons */
+button {
+    transition: all 0.2s ease;
+}
+
+button:active {
+    transform: scale(0.97);
+}

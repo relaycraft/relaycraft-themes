@@ -1,0 +1,77 @@
+id: "com.relaycraft.themes.one-dark"
+name: "One Dark"
+version: "1.0.0"
+author: "Binaryify"
+type: "dark"
+description: "A balanced dark theme based on Atom and VS Code's One Dark."
+thumbnail: "preview.png"
+css: "styles.css"
+colors:
+  "--color-background": "rgba(40, 44, 52, 0.85)"
+  "--color-foreground": "#abb2bf"
+  "--color-muted": "rgba(33, 37, 43, 0.8)"
+  "--color-muted-foreground": "#5c6370"
+  "--color-popover": "rgba(33, 37, 43, 0.95)"
+  "--color-popover-foreground": "#abb2bf"
+  "--color-card": "rgba(33, 37, 43, 0.9)"
+  "--color-card-foreground": "#abb2bf"
+  "--color-border": "rgba(24, 26, 31, 0.5)"
+  "--color-input": "rgba(28, 30, 36, 0.8)"
+  "--color-primary": "#61afef"
+  "--color-primary-foreground": "#282c34"
+  "--color-secondary": "rgba(44, 49, 58, 0.8)"
+  "--color-secondary-foreground": "#abb2bf"
+  "--color-accent": "rgba(44, 49, 58, 0.8)"
+  "--color-accent-foreground": "#ffffff"
+  "--color-destructive": "#e06c75"
+  "--color-destructive-foreground": "#ffffff"
+  "--color-ring": "#61afef"
+  "--color-success": "#98c379"
+  "--color-success-foreground": "#282c34"
+  "--color-warning": "#e5c07b"
+  "--color-warning-foreground": "#282c34"
+  "--color-info": "#56b6c2"
+  "--color-info-foreground": "#282c34"
+
+  # Rule Type Specific Colors
+  "--color-rule-script": "#c678dd"
+  "--color-rule-rewrite-body": "#e06c75"
+  "--color-rule-map-local": "#98c379"
+  "--color-rule-map-remote": "#56b6c2"
+  "--color-rule-rewrite-header": "#d19a66"
+  "--color-rule-throttle": "#e5c07b"
+  "--color-rule-block": "#e06c75"
+
+  # Method Colors
+  "--color-method-get": "#61afef"
+  "--color-method-post": "#98c379"
+  "--color-method-put": "#e5c07b"
+  "--color-method-delete": "#e06c75"
+
+  # Semantic Syntax Palette
+  "--syntax-keyword": "#c678dd"
+  "--syntax-string": "#98c379"
+  "--syntax-comment": "#5c6370"
+  "--syntax-constant": "#d19a66"
+  "--syntax-function": "#61afef"
+  "--syntax-variable": "#e06c75"
+  "--syntax-property": "#e06c75"
+  "--syntax-operator": "#56b6c2"
+  "--syntax-gutter": "rgba(255, 255, 255, 0.05)"
+
+  # Surface & Glass Effects
+  "--surface-opacity-subtle": "0.1"
+  "--surface-opacity-glass": "0.15"
+  "--surface-opacity-solid": "0.95"
+  "--blur-sm": "4px"
+  "--blur-md": "12px"
+  "--blur-lg": "24px"
+
+  # Borders
+  "--color-border-subtle": "rgba(255, 255, 255, 0.03)"
+  "--color-border-muted": "rgba(255, 255, 255, 0.08)"
+
+locales:
+  zh:
+    name: "暗黑之光"
+    description: "基于 Atom 和 VS Code 的经典平衡暗色主题。"
