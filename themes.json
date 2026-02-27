@@ -23,7 +23,7 @@
                     "description": "高对比度暗色主题，配以充满活力的霓虹点缀。"
                 }
             },
-            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.2/com.relaycraft.themes.neon-dark-v1.0.0.rctheme"
+            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.7/com.relaycraft.themes.neon-dark-v1.0.1.rctheme"
         },
         {
             "id": "com.relaycraft.themes.ocean-blue",
@@ -47,7 +47,7 @@
                     "description": "平静的蓝色基调，助您专注沉浸。"
                 }
             },
-            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.2/com.relaycraft.themes.ocean-blue-v1.0.0.rctheme"
+            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.7/com.relaycraft.themes.ocean-blue-v1.0.1.rctheme"
         },
         {
             "id": "com.relaycraft.themes.one-dark",
@@ -71,13 +71,13 @@
                     "description": "基于 Atom 和 VS Code 的经典平衡暗色主题。"
                 }
             },
-            "downloadUrl": ""
+            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.7/com.relaycraft.themes.one-dark-v1.0.0.rctheme"
         },
         {
             "id": "com.relaycraft.themes.catppuccin-latte",
             "name": "Catppuccin Latte",
             "version": "1.0.0",
-            "description": "Soothing pastel theme for the high-spirited! (Light)",
+            "description": "Soothing pastel theme for the high-spirited!",
             "author": "Catppuccin Org",
             "icon": "Sun",
             "url": "https://raw.githubusercontent.com/relaycraft/relaycraft-themes/main/themes/catppuccin-latte/theme.yaml",
@@ -95,13 +95,13 @@
                     "description": "温润柔和的浅色粉彩主题。"
                 }
             },
-            "downloadUrl": ""
+            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.7/com.relaycraft.themes.catppuccin-latte-v1.0.0.rctheme"
         },
         {
             "id": "com.relaycraft.themes.catppuccin-mocha",
             "name": "Catppuccin Mocha",
             "version": "1.0.0",
-            "description": "Soothing pastel theme for the high-spirited! (Dark)",
+            "description": "Soothing pastel theme for the high-spirited!",
             "author": "Catppuccin Org",
             "icon": "Moon",
             "url": "https://raw.githubusercontent.com/relaycraft/relaycraft-themes/main/themes/catppuccin-mocha/theme.yaml",
@@ -110,8 +110,7 @@
             "tags": [
                 "dark",
                 "pastel",
-                "soothing",
-                "glass"
+                "soothing"
             ],
             "category": "theme",
             "locales": {
@@ -120,7 +119,7 @@
                     "description": "温润柔和的暗色粉彩主题。"
                 }
             },
-            "downloadUrl": ""
+            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.7/com.relaycraft.themes.catppuccin-mocha-v1.0.0.rctheme"
         }
     ]
 }
