@@ -1,6 +1,6 @@
 id: "com.relaycraft.themes.neon-dark"
 name: "Cyberpunk Neon"
-version: "1.0.0"
+version: "1.0.1"
 author: "RelayCraft Team"
 type: "dark"
 description: "A high-contrast dark theme with vibrant neon accents."
@@ -27,8 +27,54 @@ colors:
   "--color-secondary-foreground": "#00ffcc"
   "--color-accent": "#1e2229"
   "--color-accent-foreground": "#00ffcc"
-  "--color-destructive-foreground": "#ff3366"
+  "--color-destructive": "#ff3366"
+  "--color-destructive-foreground": "#ffffff"
   "--color-ring": "#00ffcc"
+  "--color-success": "#00ff99"
+  "--color-success-foreground": "#000000"
+  "--color-warning": "#ffcc00"
+  "--color-warning-foreground": "#000000"
+  "--color-info": "#00ccff"
+  "--color-info-foreground": "#000000"
+
+  # Rule Type Specific Colors - Neon
+  "--color-rule-script": "#ff00ff"
+  "--color-rule-rewrite-body": "#cc00ff"
+  "--color-rule-map-local": "#00ffcc"
+  "--color-rule-map-remote": "#00ff99"
+  "--color-rule-rewrite-header": "#ff9900"
+  "--color-rule-throttle": "#00ccff"
+  "--color-rule-block": "#ff3366"
+
+  # Method Colors - Neon
+  "--color-method-get": "#00ccff"
+  "--color-method-post": "#00ff99"
+  "--color-method-put": "#ffcc00"
+  "--color-method-delete": "#ff3366"
+
+  # Semantic Syntax Palette - Neon
+  "--syntax-keyword": "#ff00ff"
+  "--syntax-string": "#00ff99"
+  "--syntax-comment": "#666666"
+  "--syntax-constant": "#ffcc00"
+  "--syntax-function": "#00ccff"
+  "--syntax-variable": "#ff3366"
+  "--syntax-property": "#ff3366"
+  "--syntax-operator": "#00ffcc"
+  "--syntax-gutter": "rgba(255, 255, 255, 0.1)"
+
+  # Surface & Glass Effects
+  "--surface-opacity-subtle": "0.1"
+  "--surface-opacity-glass": "0.4"
+  "--surface-opacity-solid": "0.95"
+  "--blur-sm": "4px"
+  "--blur-md": "12px"
+  "--blur-lg": "40px"
+
+  # Borders - Neon
+  "--color-border-subtle": "rgba(0, 255, 204, 0.1)"
+  "--color-border-muted": "rgba(0, 255, 204, 0.2)"
+
 locales:
   zh:
     name: "赛博朋克霓虹"

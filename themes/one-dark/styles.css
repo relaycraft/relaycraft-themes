@@ -1,0 +1,58 @@
+/* One Dark Theme - Premium Edition */
+
+/* Selection */
+::selection {
+    background: rgba(97, 175, 239, 0.3);
+    color: #e6e6e6;
+}
+
+/* Card Hover - Subtle Blue Accent */
+div[class*="border-border"] {
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+div[class*="border-border"]:hover {
+    border-color: rgba(97, 175, 239, 0.25);
+    box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px);
+}
+
+/* Input Fields Focus */
+input:focus {
+    border-color: rgba(97, 175, 239, 0.4) !important;
+    box-shadow: 0 0 0 2px rgba(97, 175, 239, 0.12);
+}
+
+/* Scrollbar - Refined */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(92, 99, 112, 0.4);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(92, 99, 112, 0.6);
+}
+
+/* Buttons - Premium Feel */
+button {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Focus Ring - Subtle Blue */
+:focus-visible {
+    outline: 2px solid rgba(97, 175, 239, 0.3);
+    outline-offset: 2px;
+}

@@ -1,6 +1,6 @@
 id: "com.relaycraft.themes.ocean-blue"
 name: "Ocean Blue"
-version: "1.0.0"
+version: "1.0.1"
 author: "RelayCraft Team"
 type: "light"
 description: "Calming blue tones for deep focus."
@@ -27,8 +27,54 @@ colors:
   "--color-secondary-foreground": "#0ea5e9"
   "--color-accent": "#e0f2fe"
   "--color-accent-foreground": "#0284c7"
-  "--color-destructive-foreground": "#ef4444"
+  "--color-destructive": "#ef4444"
+  "--color-destructive-foreground": "#ffffff"
   "--color-ring": "#38bdf8"
+  "--color-success": "#10b981"
+  "--color-success-foreground": "#ffffff"
+  "--color-warning": "#f59e0b"
+  "--color-warning-foreground": "#ffffff"
+  "--color-info": "#3b82f6"
+  "--color-info-foreground": "#ffffff"
+
+  # Rule Type Specific Colors - Light (Ocean Theme)
+  "--color-rule-script": "#6366f1"
+  "--color-rule-rewrite-body": "#a855f7"
+  "--color-rule-map-local": "#3b82f6"
+  "--color-rule-map-remote": "#10b981"
+  "--color-rule-rewrite-header": "#f97316"
+  "--color-rule-throttle": "#06b6d4"
+  "--color-rule-block": "#f43f5e"
+
+  # Method Colors - Light
+  "--color-method-get": "#3b82f6"
+  "--color-method-post": "#10b981"
+  "--color-method-put": "#f59e0b"
+  "--color-method-delete": "#f43f5e"
+
+  # Semantic Syntax Palette - Light
+  "--syntax-keyword": "#a626a4"
+  "--syntax-string": "#50a14f"
+  "--syntax-comment": "#a0a1a7"
+  "--syntax-constant": "#986801"
+  "--syntax-function": "#4078f2"
+  "--syntax-variable": "#e45649"
+  "--syntax-property": "#e45649"
+  "--syntax-operator": "#0184bc"
+  "--syntax-gutter": "rgba(0, 0, 0, 0.05)"
+
+  # Surface & Glass Effects
+  "--surface-opacity-subtle": "0.1"
+  "--surface-opacity-glass": "0.6"
+  "--surface-opacity-solid": "0.95"
+  "--blur-sm": "4px"
+  "--blur-md": "12px"
+  "--blur-lg": "40px"
+
+  # Borders - Light
+  "--color-border-subtle": "rgba(14, 165, 233, 0.1)"
+  "--color-border-muted": "rgba(14, 165, 233, 0.2)"
+
 locales:
   zh:
     name: "深海之蓝"

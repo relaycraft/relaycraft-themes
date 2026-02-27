@@ -1,0 +1,54 @@
+/* Catppuccin Mocha - Refined Edition */
+
+/* Card Hover - Subtle Mauve Accent */
+div[class*="border-border"] {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+div[class*="border-border"]:hover {
+    border-color: rgba(203, 166, 247, 0.2);
+    /* Subtle mauve with reduced intensity */
+    box-shadow: 0 2px 8px -2px rgba(203, 166, 247, 0.06);
+    /* Very subtle mauve shadow */
+    transform: translateY(-1px);
+}
+
+/* Input Fields Focus */
+input:focus {
+    border-color: rgba(203, 166, 247, 0.25) !important;
+    box-shadow: 0 0 0 2px rgba(203, 166, 247, 0.08);
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(88, 91, 112, 0.5);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(147, 153, 178, 0.8);
+}
+
+/* Buttons */
+button {
+    transition: all 0.2s ease;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+/* Focus Ring - Subtle Mauve */
+:focus-visible {
+    outline: 2px solid rgba(203, 166, 247, 0.25);
+    outline-offset: 2px;
+}
