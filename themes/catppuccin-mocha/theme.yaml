@@ -1,0 +1,77 @@
+id: "com.relaycraft.themes.catppuccin-mocha"
+name: "Catppuccin Mocha"
+version: "1.0.0"
+author: "Catppuccin Org"
+type: "dark"
+description: "Soothing pastel theme for the high-spirited!"
+thumbnail: "preview.png"
+css: "styles.css"
+colors:
+  "--color-background": "rgba(30, 30, 46, 0.55)"
+  "--color-foreground": "#cdd6f4"
+  "--color-muted": "rgba(24, 24, 37, 0.5)"
+  "--color-muted-foreground": "#7f849c"
+  "--color-popover": "rgba(24, 24, 37, 0.85)"
+  "--color-popover-foreground": "#cdd6f4"
+  "--color-card": "rgba(24, 24, 37, 0.75)"
+  "--color-card-foreground": "#cdd6f4"
+  "--color-border": "rgba(49, 50, 68, 0.4)"
+  "--color-input": "rgba(30, 30, 46, 0.65)"
+  "--color-primary": "#cba6f7"
+  "--color-primary-foreground": "#11111b"
+  "--color-secondary": "rgba(49, 50, 68, 0.6)"
+  "--color-secondary-foreground": "#cba6f7"
+  "--color-accent": "rgba(49, 50, 68, 0.6)"
+  "--color-accent-foreground": "#cba6f7"
+  "--color-destructive": "#f38ba8"
+  "--color-destructive-foreground": "#11111b"
+  "--color-ring": "#cba6f7"
+  "--color-success": "#a6e3a1"
+  "--color-success-foreground": "#11111b"
+  "--color-warning": "#f9e2af"
+  "--color-warning-foreground": "#11111b"
+  "--color-info": "#89b4fa"
+  "--color-info-foreground": "#11111b"
+
+  # Rule Type Specific Colors
+  "--color-rule-script": "#cba6f7"
+  "--color-rule-rewrite-body": "#f5c2e7"
+  "--color-rule-map-local": "#a6e3a1"
+  "--color-rule-map-remote": "#89dceb"
+  "--color-rule-rewrite-header": "#fab387"
+  "--color-rule-throttle": "#f9e2af"
+  "--color-rule-block": "#f38ba8"
+
+  # Method Colors
+  "--color-method-get": "#89b4fa"
+  "--color-method-post": "#a6e3a1"
+  "--color-method-put": "#f9e2af"
+  "--color-method-delete": "#f38ba8"
+
+  # Semantic Syntax Palette
+  "--syntax-keyword": "#cba6f7"
+  "--syntax-string": "#a6e3a1"
+  "--syntax-comment": "#6c7086"
+  "--syntax-constant": "#fab387"
+  "--syntax-function": "#89b4fa"
+  "--syntax-variable": "#f5e0dc"
+  "--syntax-property": "#89dceb"
+  "--syntax-operator": "#94e2d5"
+  "--syntax-gutter": "rgba(255, 255, 255, 0.05)"
+
+  # Surface & Glass Effects
+  "--surface-opacity-subtle": "0.1"
+  "--surface-opacity-glass": "0.4"
+  "--surface-opacity-solid": "0.95"
+  "--blur-sm": "8px"
+  "--blur-md": "20px"
+  "--blur-lg": "40px"
+
+  # Borders
+  "--color-border-subtle": "rgba(255, 255, 255, 0.02)"
+  "--color-border-muted": "rgba(255, 255, 255, 0.05)"
+
+locales:
+  zh:
+    name: "猫普契诺"
+    description: "现代感的柔和淡雅暗色主题。"

@@ -1,0 +1,77 @@
+id: "com.relaycraft.themes.dracula"
+name: "Dracula"
+version: "1.0.0"
+author: "Zeno Rocha"
+type: "dark"
+description: "A classic high-contrast theme for the Dracula fans."
+thumbnail: "preview.png"
+css: "styles.css"
+colors:
+  "--color-background": "#282a36"
+  "--color-foreground": "#f8f8f2"
+  "--color-muted": "#44475a"
+  "--color-muted-foreground": "#6272a4"
+  "--color-popover": "#282a36"
+  "--color-popover-foreground": "#f8f8f2"
+  "--color-card": "#282a36"
+  "--color-card-foreground": "#f8f8f2"
+  "--color-border": "#44475a"
+  "--color-input": "#282a36"
+  "--color-primary": "#bd93f9"
+  "--color-primary-foreground": "#282a36"
+  "--color-secondary": "#44475a"
+  "--color-secondary-foreground": "#f8f8f2"
+  "--color-accent": "#44475a"
+  "--color-accent-foreground": "#f8f8f2"
+  "--color-destructive": "#ff5555"
+  "--color-destructive-foreground": "#f8f8f2"
+  "--color-ring": "#bd93f9"
+  "--color-success": "#50fa7b"
+  "--color-success-foreground": "#282a36"
+  "--color-warning": "#f1fa8c"
+  "--color-warning-foreground": "#282a36"
+  "--color-info": "#8be9fd"
+  "--color-info-foreground": "#282a36"
+
+  # Rule Type Specific Colors
+  "--color-rule-script": "#bd93f9"
+  "--color-rule-rewrite-body": "#ff79c6"
+  "--color-rule-map-local": "#50fa7b"
+  "--color-rule-map-remote": "#8be9fd"
+  "--color-rule-rewrite-header": "#ffb86c"
+  "--color-rule-throttle": "#f1fa8c"
+  "--color-rule-block": "#ff5555"
+
+  # Method Colors
+  "--color-method-get": "#50fa7b"
+  "--color-method-post": "#f1fa8c"
+  "--color-method-put": "#ffb86c"
+  "--color-method-delete": "#ff5555"
+
+  # Semantic Syntax Palette
+  "--syntax-keyword": "#ff79c6"
+  "--syntax-string": "#f1fa8c"
+  "--syntax-comment": "#6272a4"
+  "--syntax-constant": "#bd93f9"
+  "--syntax-function": "#50fa7b"
+  "--syntax-variable": "#f8f8f2"
+  "--syntax-property": "#8be9fd"
+  "--syntax-operator": "#ff79c6"
+  "--syntax-gutter": "rgba(255, 255, 255, 0.1)"
+
+  # Surface & Glass Effects (Dracula uses solid colors)
+  "--surface-opacity-subtle": "0.1"
+  "--surface-opacity-glass": "0.1"
+  "--surface-opacity-solid": "1.0"
+  "--blur-sm": "0px"
+  "--blur-md": "0px"
+  "--blur-lg": "0px"
+
+  # Borders
+  "--color-border-subtle": "rgba(255, 255, 255, 0.05)"
+  "--color-border-muted": "rgba(255, 255, 255, 0.1)"
+
+locales:
+  zh:
+    name: "德古拉"
+    description: "经典的高对比度暗色主题。"

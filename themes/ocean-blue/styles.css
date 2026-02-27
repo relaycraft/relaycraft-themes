@@ -6,38 +6,69 @@ div[class*="animate-in"] {
     animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-/* Glassy Sidebar effect (Targeting the sidebar area implicitly via colors usually, 
-   but here we use a broad selector for demonstration since we don't have stable IDs yet) */
+/* Glassy Sidebar effect */
 div[class*="bg-muted/30"],
 div[class*="bg-muted/10"] {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    background-color: rgba(240, 249, 255, 0.5) !important;
-    /* Semi-transparent blue */
-    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(240, 249, 255, 0.6) !important; /* Slightly more opaque */
+    border-right: 1px solid rgba(186, 230, 253, 0.3);
 }
 
-/* Floating Cards effect */
+/* Refined Card Interactions - No Jitter */
 div[class*="border-border"] {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
 }
 
 div[class*="border-border"]:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px -4px rgba(14, 165, 233, 0.15);
+    /* Removed transform to prevent layout jitter */
+    box-shadow: 0 4px 12px -2px rgba(14, 165, 233, 0.15);
     border-color: var(--color-primary);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* Input Fields - Clean pill shape */
+/* Input Fields - Modern Pill Shape */
 input {
-    border-radius: 99px !important;
-    padding-left: 1.2rem !important;
-    background-color: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 8px !important; /* Less aggressive rounding */
+    padding-left: 1rem !important;
+    background-color: rgba(255, 255, 255, 0.7) !important;
     backdrop-filter: blur(4px);
-    transition: width 0.3s ease;
+    border: 1px solid transparent !important;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 input:focus {
     background-color: #ffffff !important;
-    box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.3);
+    border-color: var(--color-primary) !important;
+    box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
+    outline: none;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(14, 165, 233, 0.2);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(14, 165, 233, 0.4);
+}
+
+/* Button Refinement */
+button {
+    transition: transform 0.1s ease, filter 0.2s ease;
+}
+
+button:active {
+    transform: scale(0.98);
 }

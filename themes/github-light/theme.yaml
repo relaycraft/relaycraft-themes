@@ -1,0 +1,77 @@
+id: "com.relaycraft.themes.github-light"
+name: "GitHub Light"
+version: "1.0.0"
+author: "GitHub"
+type: "light"
+description: "A clean, official GitHub-inspired light theme."
+thumbnail: "preview.png"
+css: "styles.css"
+colors:
+  "--color-background": "#ffffff"
+  "--color-foreground": "#1f2328"
+  "--color-muted": "#f6f8fa"
+  "--color-muted-foreground": "#65707d"
+  "--color-popover": "#ffffff"
+  "--color-popover-foreground": "#1f2328"
+  "--color-card": "#ffffff"
+  "--color-card-foreground": "#1f2328"
+  "--color-border": "#d0d7de"
+  "--color-input": "#ffffff"
+  "--color-primary": "#0969da"
+  "--color-primary-foreground": "#ffffff"
+  "--color-secondary": "#f6f8fa"
+  "--color-secondary-foreground": "#1f2328"
+  "--color-accent": "#f6f8fa"
+  "--color-accent-foreground": "#1f2328"
+  "--color-destructive": "#cf222e"
+  "--color-destructive-foreground": "#ffffff"
+  "--color-ring": "#0969da"
+  "--color-success": "#1a7f37"
+  "--color-success-foreground": "#ffffff"
+  "--color-warning": "#9a6700"
+  "--color-warning-foreground": "#ffffff"
+  "--color-info": "#0969da"
+  "--color-info-foreground": "#ffffff"
+
+  # Rule Type Specific Colors
+  "--color-rule-script": "#8250df"
+  "--color-rule-rewrite-body": "#cf222e"
+  "--color-rule-map-local": "#1a7f37"
+  "--color-rule-map-remote": "#0969da"
+  "--color-rule-rewrite-header": "#9a6700"
+  "--color-rule-throttle": "#bf8700"
+  "--color-rule-block": "#cf222e"
+
+  # Method Colors
+  "--color-method-get": "#0969da"
+  "--color-method-post": "#1a7f37"
+  "--color-method-put": "#9a6700"
+  "--color-method-delete": "#cf222e"
+
+  # Semantic Syntax Palette
+  "--syntax-keyword": "#cf222e"
+  "--syntax-string": "#0a3069"
+  "--syntax-comment": "#6e7781"
+  "--syntax-constant": "#0550ae"
+  "--syntax-function": "#8250df"
+  "--syntax-variable": "#953800"
+  "--syntax-property": "#0550ae"
+  "--syntax-operator": "#cf222e"
+  "--syntax-gutter": "rgba(0, 0, 0, 0.05)"
+
+  # Surface & Glass Effects (GitHub Light uses solid colors)
+  "--surface-opacity-subtle": "0.05"
+  "--surface-opacity-glass": "0.1"
+  "--surface-opacity-solid": "1.0"
+  "--blur-sm": "0px"
+  "--blur-md": "0px"
+  "--blur-lg": "0px"
+
+  # Borders
+  "--color-border-subtle": "rgba(0, 0, 0, 0.02)"
+  "--color-border-muted": "rgba(0, 0, 0, 0.06)"
+
+locales:
+  zh:
+    name: "GitHub 亮色"
+    description: "官方风格的 GitHub 亮色主题。"

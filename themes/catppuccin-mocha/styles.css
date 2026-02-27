@@ -1,0 +1,24 @@
+/* Catppuccin Mocha Theme Specific Overrides */
+::selection {
+    background: rgba(49, 50, 68, 0.5);
+    color: #cdd6f4;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(49, 50, 68, 0.3);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(49, 50, 68, 0.5);
+}
