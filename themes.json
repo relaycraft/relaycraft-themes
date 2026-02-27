@@ -23,7 +23,7 @@
                     "description": "高对比度暗色主题，配以充满活力的霓虹点缀。"
                 }
             },
-            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.2/com.relaycraft.themes.neon-dark-v1.0.0.rctheme"
+            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.4/com.relaycraft.themes.neon-dark-v1.0.1.rctheme"
         },
         {
             "id": "com.relaycraft.themes.ocean-blue",
@@ -47,7 +47,7 @@
                     "description": "平静的蓝色基调，助您专注沉浸。"
                 }
             },
-            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.2/com.relaycraft.themes.ocean-blue-v1.0.0.rctheme"
+            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.4/com.relaycraft.themes.ocean-blue-v1.0.1.rctheme"
         },
         {
             "id": "com.relaycraft.themes.dracula",
@@ -70,7 +70,7 @@
                     "description": "经典的高对比度暗色主题。"
                 }
             },
-            "downloadUrl": ""
+            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.4/com.relaycraft.themes.dracula-v1.0.0.rctheme"
         },
         {
             "id": "com.relaycraft.themes.one-dark",
@@ -94,7 +94,7 @@
                     "description": "基于 Atom 和 VS Code 的经典平衡暗色主题。"
                 }
             },
-            "downloadUrl": ""
+            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.4/com.relaycraft.themes.one-dark-v1.0.0.rctheme"
         },
         {
             "id": "com.relaycraft.themes.catppuccin-mocha",
@@ -118,7 +118,7 @@
                     "description": "现代感的柔和淡雅暗色主题。"
                 }
             },
-            "downloadUrl": ""
+            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.4/com.relaycraft.themes.catppuccin-mocha-v1.0.0.rctheme"
         },
         {
             "id": "com.relaycraft.themes.github-light",
@@ -140,7 +140,7 @@
                     "description": "官方风格的 GitHub 亮色主题。"
                 }
             },
-            "downloadUrl": ""
+            "downloadUrl": "https://github.com/relaycraft/relaycraft-themes/releases/download/v1.0.4/com.relaycraft.themes.github-light-v1.0.0.rctheme"
         }
     ]
 }
